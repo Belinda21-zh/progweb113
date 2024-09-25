@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cajas con Párrafos</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Estilos de las cajas */
+    .box {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box h2 {
+      margin-top: 0;
+    }
+
+    .box p {
+      line-height: 1.5;
+      color: #555;
+    }
+
+    /* Estilos para dispositivos móviles */
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      .box {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h2>Caja 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel tortor nec magna faucibus commodo. Proin vitae eros nec enim faucibus aliquam. Sed euismod, nisl eget ultricies tincidunt, nisi nisl aliquam nisl, eget aliquam nisl nisl eget nisl.</p>
+    </div>
+    <div class="box">
+      <h2>Caja 2</h2>
+      <p>Sed euismod, nisl eget ultricies tincidunt, nisi nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel tortor nec magna faucibus commodo. Proin vitae eros nec enim faucibus aliquam.</p>
+    </div>
+    <div class="box">
+      <h2>Caja 3</h2>
+      <p>Proin vitae eros nec enim faucibus aliquam. Sed euismod, nisl eget ultricies tincidunt, nisi nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel tortor nec magna faucibus commodo.</p>
+    </div>
+  </div>
+</body>
+</html>
